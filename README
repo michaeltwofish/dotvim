@@ -1,0 +1,5 @@
+1. Clone
+git clone http://github.com/michaeltwofish/dotvim ~/.vim
+
+2. Link
+ln -s ~/.vim/vimrc ~/.vimrc
