@@ -54,11 +54,8 @@ set more
 " Show line numbers
 set number
 
-" Display info at the bottom of each buffer
-set ruler
-
-" Set the info displayed
-set rulerformat=%40(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
+" Always display the status line
+set laststatus=2
 
 " Keep a little buffer at the top and bottom
 set scrolloff=3
