@@ -1,3 +1,7 @@
+""" Setup pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 """ High-level settings
 syntax on
 filetype plugin indent on
@@ -30,7 +34,7 @@ set tabstop=2
 set expandtab
 
 " Round indenting to multiples of the tabstop
-set shiftround=2
+set shiftround
 
 " Automatically indent based on syntax
 set smartindent
