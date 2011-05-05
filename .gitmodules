@@ -1,3 +1,6 @@
 [submodule "bundle/gist"]
 	path = bundle/gist
 	url = https://github.com/mattn/gist-vim.git
+[submodule "bundle/cucumber"]
+	path = bundle/cucumber
+	url = git@github.com:michaeltwofish/vim-cucumber.git
