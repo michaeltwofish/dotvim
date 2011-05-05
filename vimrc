@@ -60,6 +60,9 @@ set laststatus=2
 " Keep a little buffer at the top and bottom
 set scrolloff=3
 
+" Open vertical splits on the right
+set splitright
+
 " Show commands as they're being typed
 set showcmd
 
