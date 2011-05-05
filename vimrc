@@ -7,6 +7,8 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 
+let mapleader=","
+
 """ Editing settings
 " <BS> over everything
 set backspace=indent,eol,start
@@ -78,3 +80,10 @@ set ttyfast
 
 " Highlight trailing whitespace (they bugger up {} movement)
 set list listchars=trail:.,tab:>-
+
+
+""" Specific plugin settings
+
+" This should only be mapped if NERDTree will be loaded, but we don't know that yet.
+" see http://stackoverflow.com/questions/5010162/if-existscommand-fails-on-startup-using-pathogen
+nnoremap <Leader>d :NERDTreeToggle<cr>
