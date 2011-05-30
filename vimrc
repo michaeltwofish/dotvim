@@ -87,3 +87,6 @@ set list listchars=trail:.,tab:>-
 " This should only be mapped if NERDTree will be loaded, but we don't know that yet.
 " see http://stackoverflow.com/questions/5010162/if-existscommand-fails-on-startup-using-pathogen
 nnoremap <Leader>d :NERDTreeToggle<cr>
+
+" Xdebug
+nnoremap <Leader>x :source $HOME/.vim/xdebugger/debugger.vim<cr>
