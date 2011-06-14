@@ -81,6 +81,10 @@ set ttyfast
 " Highlight trailing whitespace (they bugger up {} movement)
 set list listchars=trail:.,tab:>-
 
+""" Buffer and window settings
+
+" Remember a buffer's history when it's in the background
+set hidden
 
 """ Specific plugin settings
 
