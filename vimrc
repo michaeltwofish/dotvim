@@ -16,6 +16,10 @@ set backspace=indent,eol,start
 " Open files where I left them
 au BufReadPost * if line("'\"")>0 && line("'\"")<=line("$")|exe "normal g`\""|endif
 
+" Sane tab completion in command mode
+set wildmenu
+set wildmode=list:longest,full
+
 """ Search settings
 " Jump to search results as I type. <ESC> takes me back to where I started
 set incsearch
