@@ -52,6 +52,11 @@ set shiftwidth=2
 
 """ Visual settings
 
+let g:solarized_termcolors=256
+set background=dark
+syntax enable
+colorscheme solarized
+
 " Work in silence, unless I've got music playing
 set noerrorbells
 
