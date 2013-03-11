@@ -1,7 +1,10 @@
+set nocp
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
 """ Setup pathogen
 filetype off
 let g:pathogen_disabled = []
-execute pathogen#infect()
+call pathogen#infect()
 
 """ High-level settings
 syntax on
