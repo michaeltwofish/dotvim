@@ -1,4 +1,4 @@
-set nocp
+set nocompatible
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 """ Setup pathogen
