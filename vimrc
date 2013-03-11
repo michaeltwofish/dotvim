@@ -10,6 +10,16 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" Unicode it up
+if has("multi_byte")
+  if &termencoding == ""
+    let &termencoding = &encoding
+  endif
+  set encoding=utf-8                     " better default than latin1
+	scriptencoding utf-8
+  setglobal fileencoding=utf-8           " change default file encoding when writing new files
+endif
+
 let mapleader=","
 
 """ Editing settings
@@ -91,7 +101,7 @@ set nostartofline
 set ttyfast
 
 " Highlight trailing whitespace (they bugger up {} movement)
-set list listchars=trail:.,tab:>-
+set list listchars=trail:.,tab:â,eol:¬
 
 """ Buffer and window settings
 
