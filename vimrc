@@ -40,8 +40,8 @@ set smartcase
 " I like a tabstop of 2
 set tabstop=2
 
-" Insert spaces when I hit <TAB>
-set expandtab
+" Insert a tab when I hit <TAB>
+set noexpandtab
 
 " Round indenting to multiples of the tabstop
 set shiftround
